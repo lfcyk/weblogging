@@ -13,8 +13,8 @@ export default function NavBar() {
                 </button>
             </div>
             <div className="navbar-end gap-4 mr-16">
-                <button className="btn-secondary bg-transparent hover:bg-transparent text-white">Sign In</button>
-                <button className="btn rounded-full">Get Started</button>
+                <button className="btn-secondary bg-transparent hover:bg-transparent text-white"><Link to="login">Login</Link></button>
+                <button className="btn rounded-full"><Link to="signUp">Sign Up</Link></button>
             </div>
         </div>
     )
