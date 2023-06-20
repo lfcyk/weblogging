@@ -1,7 +1,7 @@
 import React from 'react'
-import Blogs from "../../json/Blogs.json"
+import Blogs from "../../../../json/Blogs.json"
 import { AiFillLike, AiFillEye } from "react-icons/ai";
-import { FaRandom } from "react-icons/fa"
+import { FaRandom, FaNewspaper } from "react-icons/fa"
 import {Link} from "react-router-dom"
 
 
@@ -23,8 +23,17 @@ export default function SideBar(
                 <input type="text" placeholder="🔍 Search Posts" className="input input-bordered w-80 rounded-full bg-white" />
             </div>
             
-            {/* Most Liked Articles */}
             <section className="flex flex-col gap-1 mt-10">
+                <h1 className="w-full flex flex-row">
+                    <span className="my-auto mr-3">
+                        <FaNewspaper/>
+                    </span>
+                    <span className="text-lg">
+                        Recently Posted on weblogging
+                    </span>               
+                </h1>
+
+                {/* Most Liked Articles */}
                 <h1 className="w-full flex flex-row">
                     <span className="my-auto mr-3">
                         <AiFillLike/>
@@ -34,24 +43,13 @@ export default function SideBar(
                     </span>               
                 </h1>
 
-                {/* Most Viewed Articles */}
-                <h1 className="w-full flex flex-row">
-                    <span className="my-auto mr-3">
-                        <AiFillEye/>
-                    </span>
-                    <span className="text-lg">
-                        Most Viewed Articles
-                    </span>               
-                </h1>
-
-
                 <button className="w-full flex flex-row ">
                     <span className="my-auto mr-3">
                         <FaRandom/>
                     </span>
                     <span className="text-lg">
                         <Link to="/blog" state={randomArticleId}>
-                            Random Article
+                            Random Highly-rated Article
                         </Link>
                     </span>               
                 </button>

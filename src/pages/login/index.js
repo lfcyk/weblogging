@@ -13,7 +13,7 @@ export default function Login() {
             <div className="w-1/3 h-1/2 bg-white shadow-sm rounded p-10 mt-64">
                 <h1 className="text-2xl mb-10">Login</h1>
                 <input ref={usernameRef} placeholder='Username' className="input input-bordered w-full mb-10 bg-white text-black"/>
-                <input ref={passwordRef} placeholder='Password' className="input input-bordered w-full mb-10 bg-white text-black"/>
+                <input type="password" ref={passwordRef} placeholder='Password' className="input input-bordered w-full mb-10 bg-white text-black"/>
                 <button className="btn btn-secondary w-full" onClick={onButtonLogin}>Login</button>
             </div>
         </div>
