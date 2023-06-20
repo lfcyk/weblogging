@@ -1,0 +1,306 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "author": "John Doe",
+            "title": "Introduction to JavaScript",
+            "date": "2022-01-15",
+            "views": 500,
+            "likes": 50,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "JavaScript",
+                "Programming"
+            ],
+            "image": "https://source.unsplash.com/600x400/?javascript",
+            "isLiked": true
+        },
+        {
+            "id": 2,
+            "author": "Jane Smith",
+            "title": "Getting Started with Python",
+            "date": "2022-02-20",
+            "views": 800,
+            "likes": 70,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Python",
+                "Programming"
+            ],
+            "image": "https://source.unsplash.com/600x400/?python",
+            "isLiked": false
+        },
+        {
+            "id": 3,
+            "author": "Michael Johnson",
+            "title": "The Benefits of Exercise",
+            "date": "2022-03-10",
+            "views": 1000,
+            "likes": 120,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Health",
+                "Exercise"
+            ],
+            "image": "https://source.unsplash.com/600x400/?exercise",
+            "isLiked": true
+        },
+        {
+            "id": 4,
+            "author": "Emily Davis",
+            "title": "10 Tips for Better Sleep",
+            "date": "2022-04-05",
+            "views": 750,
+            "likes": 90,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Sleep",
+                "Health"
+            ],
+            "image": "https://source.unsplash.com/600x400/?sleep",
+            "isLiked": false
+        },
+        {
+            "id": 5,
+            "author": "David Wilson",
+            "title": "Mastering HTML and CSS",
+            "date": "2022-05-12",
+            "views": 950,
+            "likes": 80,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "HTML",
+                "CSS",
+                "Web Development"
+            ],
+            "image": "https://source.unsplash.com/600x400/?html,css",
+            "isLiked": true
+        },
+        {
+            "id": 6,
+            "author": "Sophia Anderson",
+            "title": "The Art of Photography",
+            "date": "2022-06-28",
+            "views": 600,
+            "likes": 70,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Photography",
+                "Art"
+            ],
+            "image": "https://source.unsplash.com/600x400/?photography",
+            "isLiked": false
+        },
+        {
+            "id": 7,
+            "author": "James Thompson",
+            "title": "Exploring the World of AI",
+            "date": "2022-07-17",
+            "views": 1200,
+            "likes": 150,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "AI",
+                "Machine Learning"
+            ],
+            "image": "https://source.unsplash.com/600x400/?ai",
+            "isLiked": true
+        },
+        {
+            "id": 8,
+            "author": "Olivia Martin",
+            "title": "Discovering New Horizons: Travel Guide",
+            "date": "2022-08-08",
+            "views": 900,
+            "likes": 100,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Travel",
+                "Adventure"
+            ],
+            "image": "https://source.unsplash.com/600x400/?travel",
+            "isLiked": false
+        },
+        {
+            "id": 9,
+            "author": "William Harris",
+            "title": "The Power of Positive Thinking",
+            "date": "2022-09-25",
+            "views": 700,
+            "likes": 60,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Self-Improvement",
+                "Positivity"
+            ],
+            "image": "https://source.unsplash.com/600x400/?positive-thinking",
+            "isLiked": true
+        },
+        {
+            "id": 10,
+            "author": "Ava Wilson",
+            "title": "Cooking 101: Kitchen Essentials",
+            "date": "2022-10-19",
+            "views": 850,
+            "likes": 80,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Cooking",
+                "Food"
+            ],
+            "image": "https://source.unsplash.com/600x400/?cooking",
+            "isLiked": false
+        },
+        {
+            "id": 11,
+            "author": "Benjamin Thompson",
+            "title": "The Future of Renewable Energy",
+            "date": "2022-11-11",
+            "views": 950,
+            "likes": 110,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Renewable Energy",
+                "Environment"
+            ],
+            "image": "https://source.unsplash.com/600x400/?renewable-energy",
+            "isLiked": true
+        },
+        {
+            "id": 12,
+            "author": "Mia Roberts",
+            "title": "Understanding Blockchain Technology",
+            "date": "2022-12-06",
+            "views": 600,
+            "likes": 90,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Blockchain",
+                "Technology"
+            ],
+            "image": "https://source.unsplash.com/600x400/?blockchain",
+            "isLiked": false
+        },
+        {
+            "id": 13,
+            "author": "Noah Clark",
+            "title": "Gardening Tips for Beginners",
+            "date": "2023-01-22",
+            "views": 800,
+            "likes": 70,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Gardening",
+                "Hobby"
+            ],
+            "image": "https://source.unsplash.com/600x400/?gardening",
+            "isLiked": true
+        },
+        {
+            "id": 14,
+            "author": "Isabella Turner",
+            "title": "The Importance of Emotional Intelligence",
+            "date": "2023-02-14",
+            "views": 1100,
+            "likes": 130,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Emotional Intelligence",
+                "Self-Development"
+            ],
+            "image": "https://source.unsplash.com/600x400/?emotional-intelligence",
+            "isLiked": false
+        },
+        {
+            "id": 15,
+            "author": "Ethan Adams",
+            "title": "Investing 101: Getting Started",
+            "date": "2023-03-09",
+            "views": 950,
+            "likes": 120,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Investing",
+                "Finance"
+            ],
+            "image": "https://source.unsplash.com/600x400/?investing",
+            "isLiked": true
+        },
+        {
+            "id": 16,
+            "author": "Chloe Walker",
+            "title": "Tips for Effective Time Management",
+            "date": "2023-04-17",
+            "views": 700,
+            "likes": 80,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Productivity",
+                "Time Management"
+            ],
+            "image": "https://source.unsplash.com/600x400/?time-management",
+            "isLiked": false
+        },
+        {
+            "id": 17,
+            "author": "Gabriel Mitchell",
+            "title": "Exploring the Wonders of the Universe",
+            "date": "2023-05-12",
+            "views": 1200,
+            "likes": 150,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Space",
+                "Astronomy"
+            ],
+            "image": "https://source.unsplash.com/600x400/?universe",
+            "isLiked": true
+        },
+        {
+            "id": 18,
+            "author": "Harper Nelson",
+            "title": "The Art of Public Speaking",
+            "date": "2023-06-04",
+            "views": 900,
+            "likes": 100,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Public Speaking",
+                "Communication"
+            ],
+            "image": "https://source.unsplash.com/600x400/?public-speaking",
+            "isLiked": false
+        },
+        {
+            "id": 19,
+            "author": "Liam Baker",
+            "title": "The Beauty of Classical Music",
+            "date": "2023-07-21",
+            "views": 750,
+            "likes": 90,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Music",
+                "Classical Music"
+            ],
+            "image": "https://source.unsplash.com/600x400/?classical-music",
+            "isLiked": true
+        },
+        {
+            "id": 20,
+            "author": "Victoria Cooper",
+            "title": "The Art of Mindfulness",
+            "date": "2023-08-15",
+            "views": 1000,
+            "likes": 110,
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maiores debitis.",
+            "tags": [
+                "Mindfulness",
+                "Wellness"
+            ],
+            "image": "https://source.unsplash.com/600x400/?mindfulness",
+            "isLiked": false
+        }
+    ]
+
+}
