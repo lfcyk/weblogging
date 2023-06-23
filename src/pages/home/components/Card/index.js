@@ -16,7 +16,7 @@ export default function Card({
     return (
         <div className="flex">
             <div className="card w-5/6 bg-base-100 shadow-xl mx-auto">
-                <figure ><img className="w-full" src={image}/></figure>
+                <figure ><img className="w-full" src={process.env.REACT_APP_IMAGE_URL + image}/></figure>
                 <div className="card-body">
                     <h3>{author}</h3>
                     <div className="inline-flex">
@@ -27,9 +27,7 @@ export default function Card({
                         </h2>                   
                     </div>                   
                     <div className="card-actions justify-start">
-                        {tags.map((tag) => (
-                            <div className="badge badge-outline">{tag}</div>
-                        ))}
+                        <div className="badge badge-outline">{tags}</div>
                     </div>
                     <p>{formatDate(date)}</p>
                     <p>{content}</p>                    

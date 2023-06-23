@@ -6,22 +6,25 @@ export const getFavBlogs = createAsyncThunk(
     "blogs/getFavBlogs",
     async (payload, { rejectWithValue }) => {
         try {
-            const { data } = await api.get("/blog/pagFav")
+            const { data } = await api.get("/blog/pagFav?sort=ASC")
             const { cat_name } = payload      
             
             let responseFavBlogs =[]
                       
             for (let i=1; i <= data.page; i++) {
-                let response2FavBlogs = await api.get(`/blog/pagFav?page=${i}`)
+                let response2FavBlogs = await api.get(`/blog/pagFav?sort=ASC&page=${i}`)
                 let outputFavBlogs = response2FavBlogs.data.result
                 responseFavBlogs = responseFavBlogs.concat(outputFavBlogs)
             }
+            responseFavBlogs.sort((a, b) => {
+                return b.total_fav - a.total_fav;
+            })
 
             let outputFilterFavBlogs = responseFavBlogs.filter(function (article) {
                 if(cat_name === undefined){
                     
                 }else{
-                    return article?.Category?.name === cat_name
+                    return article?.Category?.name == cat_name
                 }
             })
 
