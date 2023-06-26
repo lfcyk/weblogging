@@ -69,11 +69,8 @@ export default function Home() {
         }))
 	}
 
-	console.log(valueCategory);
     return (
       	<div>
-			<NavBar/>
-			<hr/>
 			<Welcome/>
 
 
@@ -113,7 +110,7 @@ export default function Home() {
 			</section>
                 
 			
-			<Footer/>
+			
 			<ToTop/>
 		</div>
     )
