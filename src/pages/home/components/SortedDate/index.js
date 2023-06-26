@@ -11,7 +11,7 @@ export default function SortedDate(
             <div className="flex flex-col gap-8">
                 {articles.articles.map((article, index) => (
                     <Card
-                        key={article.id}
+                        BlogId={article.id}
                         author={article.User.username}
                         date={(article.createdAt)}
                         image={article.imageURL}

@@ -37,32 +37,32 @@ export default function MyBlogs() {
         }))
     }, [])
 
-    console.log(likedArticles);
   return (
     <div>
         <div className="flex flex-row flex-auto">
-            <div className=" w-2/3 h-screen">
+            <div className="w-2/3">
                 <h1 className="text-5xl font-bold w-max mx-auto mt-10 mb-14"> 
                     Blogs You Have Written
                 </h1>
-                <div className="ml-20">
+                <div className="flex flex-row flex-wrap mx-10 gap-y-14 gap-x-5">
                     {filteredArticles.map((filteredArticle, index) => {
                         return <MyBlogCard key={filteredArticle.id}
                             title={filteredArticle.title}
                             content={filteredArticle.content}
                             thumbnail={filteredArticle.imageURL}
                             BlogId = {filteredArticle.id}
-                            category = {filteredArticle?.Category?.name}/>
+                            category = {filteredArticle?.Category?.name}
+                            />
                             }
                         )
                     }
                 </div>
             </div>
-            <div className="bg-white w-1/3 h-screen">
+            <div className="bg-white w-1/3">
                 <h1 className="text-5xl font-bold w-max mx-auto mt-10 mb-10"> 
                     Blogs You Loved
                 </h1>
-                <div className="mx-10 flex flex-col w-full gap-5">
+                <div className="mx-10 flex flex-col w-full gap-5 mb-10">
                     {likedArticles.map((likedArticle, index) => {
                         return <LikedBlogCard key={likedArticle.id}
                             title={likedArticle.Blog?.title}

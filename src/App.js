@@ -14,6 +14,7 @@ import NavBar from "./components/NavBar";
 import CreateBlog from "./pages/create-blog";
 import MyBlogs from "./pages/my-blogs";
 import Footer from "./components/Footer";
+import { Toaster } from "react-hot-toast";
 
 function App() {
 	const projects= ["a","b"];
@@ -27,6 +28,7 @@ function App() {
 	}
 	return (
 		<div className="App">
+			
 			<NavBar/>
 			<hr/>
 			<Routes>
@@ -45,6 +47,7 @@ function App() {
 				<Route path="*" element={<NotFound/>}/>
 			</Routes>
 			<Footer/>
+			{/* <Toaster/> */}
 		</div>
 	);
 }
