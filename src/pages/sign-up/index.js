@@ -45,7 +45,7 @@ export default function SignUp() {
 			phone : phoneRef.current?.value.toString(),
 			password : passwordRef.current?.value.toString(),
 			confirmPassword : confirmpasswordRef.current?.value.toString(),
-			FE_URL: "https://sensational-boba-4162ba.netlify.app/"
+			FE_URL: "https://weblogging.netlify.app/"
 		}))
 	}
 
